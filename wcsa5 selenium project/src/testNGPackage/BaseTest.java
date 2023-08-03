@@ -17,7 +17,7 @@ public class BaseTest {
 
 	static WebDriver driver;
 	@BeforeMethod
-	public void sdetUp() 
+	public void setUp() 
 	{
 
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");

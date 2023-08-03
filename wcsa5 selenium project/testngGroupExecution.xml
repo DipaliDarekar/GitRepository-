@@ -13,7 +13,7 @@
 			  <exclude name="Functional Testcase"></exclude>
 		  </run>
 	  </groups>
-	  s
+	
     <classes>
       <class name="testNGAnnotation_Flags.Flag6"/>
     </classes>

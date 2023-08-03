@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class ActitimeDatarovider2 {
-  @Test(dataProvider = "actitimeData")
+  @Test(dataProvider = "testData")
   public void invalidLoginMethod(String usn,String pass) {
 	  System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
@@ -25,7 +25,7 @@ public class ActitimeDatarovider2 {
 		 	
   }
   
-  @DataProvider(name="actitimeData")
+  @DataProvider//(name="actitimeData")
   public Object[][] testData() {
 	 Object[][] testData1 = new Object[5] [2];
 	 testData1 [0] [0]="ad-min";

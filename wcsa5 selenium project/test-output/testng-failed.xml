@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGPackage.TestCase2">
+      <class name="testNGAnnotation_Flags.OrangeHRMDataprovider">
         <methods>
-          <include name="sdetUp"/>
-          <include name="CreateUser"/>
-          <include name="tearDown"/>
-          <include name="loginMethod"/>
-          <include name="logout"/>
+          <include name="orangehrmlogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testNGPackage.TestCase2 -->
+      </class> <!-- testNGAnnotation_Flags.OrangeHRMDataprovider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
